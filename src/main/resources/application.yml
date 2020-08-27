@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: hcph-spring-exam
+
+server:
+  port: 8910
