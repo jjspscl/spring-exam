@@ -2,5 +2,16 @@ spring:
   application:
     name: hcph-spring-exam
 
+  datasource:
+    url: jdbc:h2:file:./data/spring_exam
+    driverClassName: org.h2.Driver
+    username: admin
+    password: password
+  h2:
+    console: 
+      enabled: true
+      port: 6969
+  jpa.database-platform: org.hibernate.dialect.H2Dialect
+
 server:
-  port: 8910
+  port: 3000
