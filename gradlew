@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 #
 # Copyright 2015 the original author or authors.
 #
